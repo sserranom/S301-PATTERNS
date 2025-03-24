@@ -1,14 +1,53 @@
-# Patterns
+# Patrones de Diseño en Java
 
-Este proyecto demuestra la implementación de varios patrones de diseño en Java, incluyendo Singleton, Abstract Factory y Command.
+Este proyecto demuestra la implementación de varios patrones de diseño en Java, incluyendo Singleton, Abstract Factory y Command, todos dentro del mismo proyecto.
 
 ## Tabla de Contenidos
 
-* [Descripción](#descripción)
+* [Instalación](#instalación)
+* [Uso](#uso)
 * [Nivel 1: Singleton](#nivel-1-singleton)
 * [Nivel 2: Abstract Factory](#nivel-2-abstract-factory)
 * [Nivel 3: Command](#nivel-3-command)
 
+
+## Instalación
+
+1.  **Clonar el repositorio:**
+
+    ```bash
+    git clone [[URL_DEL_REPOSITORIO](https://github.com/sserranom/S301-PATTERNS.git)]
+    ```
+
+2.  **Compilar el código:**
+
+    Asegúrate de tener instalado el JDK (Java Development Kit). Puedes compilar todo el proyecto usando el siguiente comando desde la raíz del proyecto:
+
+    ```bash
+    javac N1Singleton/*.java N2AbstractFactory/**/*.java N3Commnad/*.java
+    ```
+
+## Uso
+
+Para ejecutar cada nivel, puedes usar los siguientes comandos desde la raíz del proyecto:
+
+* **Nivel 1 (Singleton):**
+
+    ```bash
+    java N1Singleton.Main
+    ```
+
+* **Nivel 2 (Abstract Factory):**
+
+    ```bash
+    java N2AbstractFactory.Main
+    ```
+
+* **Nivel 3 (Command):**
+
+    ```bash
+    java N3Commnad.Main
+    ```
 
 ## Nivel 1: Singleton
 
