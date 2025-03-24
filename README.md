@@ -1,4 +1,4 @@
-# Patrones de Diseño en Java
+# Patterns1
 
 Este proyecto demuestra la implementación de varios patrones de diseño en Java, incluyendo Singleton, Abstract Factory y Command, todos dentro del mismo proyecto.
 
