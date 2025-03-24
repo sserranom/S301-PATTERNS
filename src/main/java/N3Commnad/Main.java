@@ -25,7 +25,5 @@ public class Main {
         parking.runCommand(new AcelerateCommand(plane));
         parking.runCommand(new BarakeCommand(plane));
 
-
-
     }
 }

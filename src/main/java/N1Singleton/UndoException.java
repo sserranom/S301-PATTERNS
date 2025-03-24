@@ -1,7 +1,7 @@
-package N1Singleton;
+    package N1Singleton;
 
-public class UndoException extends Exception {
-    public UndoException(String message) {
-        super(message);
+    public class UndoException extends Exception {
+        public UndoException(String message) {
+            super(message);
+        }
     }
-}
