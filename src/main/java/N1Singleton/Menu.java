@@ -1,4 +1,4 @@
-package EjercicioN1;
+package N1Singleton;
 
 import java.util.Scanner;
 
@@ -26,7 +26,6 @@ public class Menu {
         while (true) {
             System.out.print("> ");
             String command = input.nextLine().trim();
-
 
             try {
                 String[] parts = command.split(" ", 2);
@@ -66,6 +65,7 @@ public class Menu {
 
                     case "help":
                         showInfoamation();
+                        break;
 
                     default:
                         System.out.println("Ingresa un comando válido");

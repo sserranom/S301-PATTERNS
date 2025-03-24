@@ -1,4 +1,4 @@
-package EjercicioN1;
+package N1Singleton;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -68,8 +68,6 @@ public class Undo {
         }
             //String lastAction = commandHistory.get(commandHistory.size() - 1);
         throw new UndoException("No hay nada que deshacer");
-
-
     }
 
     public void showCollection() {
